@@ -1,0 +1,36 @@
+h1 {
+    margin-top: 0
+}
+
+button {
+    margin: 5px 4px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 12px;
+}
+
+.button--plus {
+    background: #43c53e;
+    color: #fff;
+}
+
+.button--cross {
+    background: #c53e49;
+    color: #fff;
+}
+
+.tarjeta-fruta {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #e7e7e7;
+    padding: .8rem;
+    margin-bottom: 1rem;
+    color: #000;
+    transition: all 250ms ease-out;
+}
+
+.tarjeta-fruta--activa {
+    background-image: linear-gradient(to right, #124592, #1c8ecf, #33cad8, #19f5f5, #43c53e);
+    color: #fff;
+}
